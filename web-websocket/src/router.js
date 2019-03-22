@@ -1,10 +1,10 @@
-import Vue from "vue";
-import Router from "vue-router";
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import WsSocket1 from "./views/WsSocket1.vue";
-import WsSocket2 from "./views/WsSocket2.vue";
-import WsSocket3 from "./views/WsSocket3.vue";
+import Vue from "vue"
+import Router from "vue-router"
+import Home from "./views/Home.vue"
+import About from "./views/About.vue"
+import WsSocket1 from "./views/WsSocket1.vue"
+import WsSocket2 from "./views/WsSocket2.vue"
+import WsSocket3 from "./views/WsSocket3.vue"
 
 Vue.use(Router);
 
