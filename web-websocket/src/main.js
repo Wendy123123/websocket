@@ -1,11 +1,11 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import Antd from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css';
-import './mock/index';
-import axios from "axios";
+import Vue from "vue"
+import App from "./App.vue"
+import router from "./router"
+import store from "./store"
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
+import './mock/index'
+import axios from "axios"
 
 Vue.prototype.$http = axios;
 Vue.use(Antd)
